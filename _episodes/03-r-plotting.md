@@ -28,13 +28,13 @@ ggplot(data = <DATA>, mapping = aes(<MAPPINGS>)) + <GEOM_FUNCTION>
 ~~~
 {: .language-r}
 
-In the above example, there are three important parts: <DATA>, <MAPPINGS>, and <GEOM_FUNCTION>. 
+In the above example, there are three important parts: `<DATA>, <MAPPINGS>, and <GEOM_FUNCTION>`. 
 
-<DATA> refers to the data that we'll be plotting. In general, this will be held in a dataframe like the one we prepared in the previous lessons.
+`<DATA>` refers to the data that we'll be plotting. In general, this will be held in a dataframe like the one we prepared in the previous lessons.
 
-<MAPPINGS> refers to the aesthetic mappings for the data- that is, which columns in the data will be used to determine which attributes of the graph. For example, if you have columns for latitude and longitude, you may want to map these onto the X and Y axes of the graph. We'll cover how to do exactly that in a moment. 
+`<MAPPINGS>` refers to the aesthetic mappings for the data- that is, which columns in the data will be used to determine which attributes of the graph. For example, if you have columns for latitude and longitude, you may want to map these onto the X and Y axes of the graph. We'll cover how to do exactly that in a moment. 
 
-Finally, <GEOM_FUNCTION> refers to the style of the plot: what type of plot are we going to make. GEOM is short for "geometry" and `ggplot2` contains many different 'geom' functions that you can use. For this lesson, we'll be using `geom_point()`, which produces a scatterplot, but in the future you may want to use `geom_path()`, `geom_bar()`, `geom_boxplot()` or any of ggplots other geom functions. Remember, since these are functions, you can use the help syntax (i.e `?geom_point`) in the R console to find out more about them and what you need to pass to them. 
+Finally, `<GEOM_FUNCTION>` refers to the style of the plot: what type of plot are we going to make. GEOM is short for "geometry" and `ggplot2` contains many different 'geom' functions that you can use. For this lesson, we'll be using `geom_point()`, which produces a scatterplot, but in the future you may want to use `geom_path()`, `geom_bar()`, `geom_boxplot()` or any of ggplots other geom functions. Remember, since these are functions, you can use the help syntax (i.e `?geom_point`) in the R console to find out more about them and what you need to pass to them. 
 
 Now that we've introduced `ggplot2`, let's build a functional example with our data. 
 
@@ -118,13 +118,13 @@ ggplot(data = <DATA>, mapping = aes(<MAPPINGS>)) + <GEOM_FUNCTION>
 ~~~
 {: .language-r}
 
-In the above example, there are three important parts: <DATA>, <MAPPINGS>, and <GEOM_FUNCTION>. 
+In the above example, there are three important parts: `<DATA>, <MAPPINGS>, and <GEOM_FUNCTION>`. 
 
-<DATA> refers to the data that we'll be plotting. In general, this will be held in a dataframe like the one we prepared in the previous lessons.
+`<DATA>` refers to the data that we'll be plotting. In general, this will be held in a dataframe like the one we prepared in the previous lessons.
 
-<MAPPINGS> refers to the aesthetic mappings for the data- that is, which columns in the data will be used to determine which attributes of the graph. For example, if you have columns for latitude and longitude, you may want to map these onto the X and Y axes of the graph. We'll cover how to do exactly that in a moment. 
+`<MAPPINGS>` refers to the aesthetic mappings for the data- that is, which columns in the data will be used to determine which attributes of the graph. For example, if you have columns for latitude and longitude, you may want to map these onto the X and Y axes of the graph. We'll cover how to do exactly that in a moment. 
 
-Finally, <GEOM_FUNCTION> refers to the style of the plot: what type of plot are we going to make. GEOM is short for "geometry" and `ggplot2` contains many different 'geom' functions that you can use. For this lesson, we'll be using `geom_point()`, which produces a scatterplot, but in the future you may want to use `geom_path()`, `geom_bar()`, `geom_boxplot()` or any of ggplots other geom functions. Remember, since these are functions, you can use the help syntax (i.e `?geom_point`) in the R console to find out more about them and what you need to pass to them. 
+Finally, `<GEOM_FUNCTION>` refers to the style of the plot: what type of plot are we going to make. GEOM is short for "geometry" and `ggplot2` contains many different 'geom' functions that you can use. For this lesson, we'll be using `geom_point()`, which produces a scatterplot, but in the future you may want to use `geom_path()`, `geom_bar()`, `geom_boxplot()` or any of ggplots other geom functions. Remember, since these are functions, you can use the help syntax (i.e `?geom_point`) in the R console to find out more about them and what you need to pass to them. 
 
 Now that we've introduced `ggplot2`, let's build a functional example with our data. 
 
@@ -207,13 +207,13 @@ ggplot(data = <DATA>, mapping = aes(<MAPPINGS>)) + <GEOM_FUNCTION>
 ~~~
 {: .language-r}
 
-In the above example, there are three important parts: <DATA>, <MAPPINGS>, and <GEOM_FUNCTION>. 
+In the above example, there are three important parts: `<DATA>, <MAPPINGS>, and <GEOM_FUNCTION>`. 
 
-<DATA> refers to the data that we'll be plotting. In general, this will be held in a dataframe like the one we prepared in the previous lessons.
+`<DATA>` refers to the data that we'll be plotting. In general, this will be held in a dataframe like the one we prepared in the previous lessons.
 
-<MAPPINGS> refers to the aesthetic mappings for the data- that is, which columns in the data will be used to determine which attributes of the graph. For example, if you have columns for latitude and longitude, you may want to map these onto the X and Y axes of the graph. We'll cover how to do exactly that in a moment. 
+`<MAPPINGS>` refers to the aesthetic mappings for the data- that is, which columns in the data will be used to determine which attributes of the graph. For example, if you have columns for latitude and longitude, you may want to map these onto the X and Y axes of the graph. We'll cover how to do exactly that in a moment. 
 
-Finally, <GEOM_FUNCTION> refers to the style of the plot: what type of plot are we going to make. GEOM is short for "geometry" and `ggplot2` contains many different 'geom' functions that you can use. For this lesson, we'll be using `geom_point()`, which produces a scatterplot, but in the future you may want to use `geom_path()`, `geom_bar()`, `geom_boxplot()` or any of ggplots other geom functions. Remember, since these are functions, you can use the help syntax (i.e `?geom_point`) in the R console to find out more about them and what you need to pass to them. 
+Finally, `<GEOM_FUNCTION>` refers to the style of the plot: what type of plot are we going to make. GEOM is short for "geometry" and `ggplot2` contains many different 'geom' functions that you can use. For this lesson, we'll be using `geom_point()`, which produces a scatterplot, but in the future you may want to use `geom_path()`, `geom_bar()`, `geom_boxplot()` or any of ggplots other geom functions. Remember, since these are functions, you can use the help syntax (i.e `?geom_point`) in the R console to find out more about them and what you need to pass to them. 
 
 Now that we've introduced `ggplot2`, let's build a functional example with our data. 
 
